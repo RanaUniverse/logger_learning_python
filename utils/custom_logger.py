@@ -4,12 +4,6 @@ import time
 
 logging.Formatter.converter = time.gmtime
 
-# abc = logging.warning("Remain Calm!")
-# logging.basicConfig(
-#     level=logging.DEBUG,
-#     format="%(levelname)s:%(name)s:%(message)s",
-# )
-
 logging.basicConfig(
     level=logging.DEBUG,
     filename="rana.log",
@@ -22,7 +16,7 @@ logging.basicConfig(
 )
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
 
     logging.debug("This is a debug msg")
     logging.info("Info of the system is here")
